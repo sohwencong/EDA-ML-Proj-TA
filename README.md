@@ -1,8 +1,11 @@
-## AIAP Batch 14 Technical Assessment
+## EDA & ML Project (Technical Assessment)
 
-#### a) Full name and email address:
-Name: Soh Wen Cong<br>
-Email: sohbryon@gmail.com
+#### a) Problem statement
+Objectives: A fishing company will plan its fishing operation for the next day based on the forecasted weather condition. Specifically, the company will not send its fishermen out fishing during a storm to avoid higher maintenance costs. However, if they choose to stay in, due to incorrect forecast, while their competitors went out, they would lose out severely in terms of the size of their catch. Hence, the company has engaged you (an AI Engineer) to build models that make rain prediction for the next day. By the fishing company’s definition, it is said to have rained if there is more than 1.0 mm of rain in the day.<br> 
+Evaluate 3 suitable models for predicting whether it will rain the next day.<br>
+Dataset: The dataset provided contains measurements that the company has collected at four different points in Singapore. Do note that there could be synthetic features in the dataset. Therefore you would need to state and verify any assumptions that you make.
+Task 1: Exploratory Data Analysis (EDA) using Jupyter Notebook in Python.<br>
+Task 2: End-to-end Machine Learning Pipeline (MLP) in Python scripts.
 
 #### b) Overview of the submitted folder and the folder structure:
 ```
@@ -40,7 +43,7 @@ Email: sohbryon@gmail.com
 3. Outliers were present in 'Rainfall', 'Evaporation', 'WindGustSpeed', 'WindSpeed9am', 'WindSpeed3pm', 'Humidity9am' and 'Humidity3pm'.
 4. Data distribution of 'Rainfall', 'Evaporation', 'WindGustSpeed', 'WindSpeed9am' and 'WindSpeed3pm' were right-skewed; whereas 'Sunshine' and 'Humidity9am' were left-skewed. 
 
-#### f) Described how the features in the dataset are processed:
+#### f) Describe how the features in the dataset are processed:
 1. Preprocessing of data<br>
     a. Drops duplicated rows<br>
     b. Converts negative values to positive in 'Sunshine'<br>
@@ -59,13 +62,13 @@ Email: sohbryon@gmail.com
         &nbsp;&nbsp;&nbsp;i. Encoding using 'OneHotEncoder'<br>
         &nbsp;&nbsp;&nbsp;ii. Feature scaling using 'StandardScaler'
 
-#### g) Explanation of your choice of models for each machine learning task:
+#### g) Explanation of choice of models for each machine learning task:
 3 types of classification models were selected, namely Logistic Regression, Random Forest Classifier and Decision Tree Classifier. 
 1. Logistic Regression uses a logistic function to come up with the probabilities of possible outcomes. It is designed for classification problems and is very useful in understanding the influence of several independent variables on a single outcome variable. 
 2. Random Forest Classifier is a meta-estimator that fits a number of decision trees on various subsamples of datasets and uses the average to improve its predictive accuracy. It reduces over-fitting which makes it more accurate.
 3. Decision Tree Classifier produces a sequence of rules that can be used to classify the data. It requires little data preparation and can handle both numerical and categorical data. 
 
-#### h) Evaluation of the models developed. Any metrics used in the evaluation should also be explained:
+#### h) Evaluation of the models developed:
 1. LogisticRegression<br>
 F1 Score - 0.69<br>
 Accuracy Score - 86.55%<br>
