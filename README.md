@@ -1,4 +1,4 @@
-## EDA & ML Project (Technical Assessment)
+## EDA & End-to-End ML Pipeline Project (Technical Assessment)
 
 #### a) Problem statement
 Objectives:<br>
