@@ -2,8 +2,8 @@
 
 #### a) Problem statement
 Objectives: A fishing company will plan its fishing operation for the next day based on the forecasted weather condition. Specifically, the company will not send its fishermen out fishing during a storm to avoid higher maintenance costs. However, if they choose to stay in, due to incorrect forecast, while their competitors went out, they would lose out severely in terms of the size of their catch. Hence, the company has engaged you (an AI Engineer) to build models that make rain prediction for the next day. By the fishing company’s definition, it is said to have rained if there is more than 1.0 mm of rain in the day.<br> 
-Evaluate 3 suitable models for predicting whether it will rain the next day.<br>
-Dataset: The dataset provided contains measurements that the company has collected at four different points in Singapore. Do note that there could be synthetic features in the dataset. Therefore you would need to state and verify any assumptions that you make.
+Evaluate 3 suitable models for predicting whether it will rain the next day.<br><br>
+Dataset: The dataset provided contains measurements that the company has collected at four different points in Singapore. Do note that there could be synthetic features in the dataset. Therefore you would need to state and verify any assumptions that you make.<br><br>
 Task 1: Exploratory Data Analysis (EDA) using Jupyter Notebook in Python.<br>
 Task 2: End-to-end Machine Learning Pipeline (MLP) in Python scripts.
 
